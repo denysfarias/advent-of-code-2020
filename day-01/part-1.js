@@ -13,8 +13,9 @@ rl.on('line', (line) => {
   numbers.some(number => {
     if (number + current == 2020)
     {
-      console.log(number, current);
-      console.log('the answer is:', number * current);
+      console.log('Numbers:', number, current);
+      console.log('Sum:', number + current);
+      console.log('The answer is:', number * current, '(product)');
       return true;
     }
   });
